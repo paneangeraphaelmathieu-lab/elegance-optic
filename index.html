@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegance Optic Center - Bingerville</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a1929 0%, #1a2a3a 50%, #0d47a1 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 30px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 500px;
+            width: 100%;
+            padding: 40px;
+            text-align: center;
+            animation: fadeIn 0.8s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .logo {
+            width: 200px;
+            height: auto;
+            margin-bottom: 20px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 28px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        .location {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            border-left: 4px solid #3498db;
+        }
+
+        .location i {
+            color: #3498db;
+            margin-right: 10px;
+        }
+
+        .location p {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .social-links {
+            display: grid;
+            gap: 15px;
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            padding: 18px 25px;
+            border-radius: 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .social-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .social-link i {
+            font-size: 24px;
+            margin-right: 15px;
+        }
+
+        .whatsapp {
+            background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+        }
+
+        .instagram {
+            background: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #FCB045 100%);
+        }
+
+        .website {
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+        }
+
+        .tiktok {
+            background: linear-gradient(135deg, #000000 0%, #EE1D52 100%);
+        }
+
+        .facebook {
+            background: linear-gradient(135deg, #4267B2 0%, #1877F2 100%);
+        }
+
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #ecf0f1;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            .social-link {
+                padding: 15px 20px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <h1>Elegance Optic Center</h1>
+        <p class="subtitle">Votre spécialiste en optique à Bingerville</p>
+
+        <div class="location">
+            <i class="fas fa-map-marker-alt"></i>
+            <p><strong>Adresse:</strong><br>
+            Bingerville, Carrefour Coup de Frein<br>
+            Près de la Pharmacie St Sylvestre</p>
+        </div>
+
+        <div class="social-links">
+            <a href="https://wa.me/+2250787071110" class="social-link whatsapp" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+                <span>Contactez-nous sur WhatsApp</span>
+            </a>
+
+            <a href="https://www.instagram.com/eleganceoptic_center?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-link instagram" target="_blank">
+                <i class="fab fa-instagram"></i>
+                <span>Suivez-nous sur Instagram</span>
+            </a>
+
+            <a href="https://eleganceopticcenter.com/service.html" class="social-link website" target="_blank">
+                <i class="fas fa-globe"></i>
+                <span>Visitez notre site web</span>
+            </a>
+
+            <a href="https://www.tiktok.com/@lgance..optic?_t=8p9QDos5BuH&_r=1" class="social-link tiktok" target="_blank">
+                <i class="fab fa-tiktok"></i>
+                <span>Découvrez nos TikToks</span>
+            </a>
+
+            <a href="https://www.facebook.com/share/7EjPRayrGY8G2buc/?mibextid=qi2Omg" class="social-link facebook" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+                <span>Rejoignez-nous sur Facebook</span>
+            </a>
+        </div>
+
+        <div class="footer">
+            <p> Horaires d'ouverture à vérifier sur nos réseaux sociaux</p>
+        </div>
+    </div>
+</body>
+</html>
